@@ -1,10 +1,10 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - QR code component solution
 
-This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [Frontend Mentor - Blog preview card solution](#frontend-mentor---blog-preview-card-solution)
+- [Frontend Mentor - QR code component solution](#frontend-mentor---qr-code-component-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Screenshot](#screenshot)
@@ -18,16 +18,18 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./assets/screenshot.png)
+![](./images/screenshot.png)
+
 
 ### Links
 
-- Solution URL: [Github](https://github.com/sreekarnv/fm-solutions/tree/main/blog-preview-card)
-- Live Site URL: [Netlify](https://gorgeous-salmiakki-2866f5.netlify.app/)
+- Solution URL: [Github](https://github.com/sreekarnv/fm-solutions/tree/main/qr-code-component)
+- Live Site URL: [Netlify](https://lively-donut-a99ccb.netlify.app/)
 
 ## My process
 
 ### Built with
+
 
 - Semantic HTML5 markup
 - Flexbox
@@ -35,10 +37,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [Parcel.js](https://parceljs.org/) - Bundler
 
 
-
 ## Author
 
 - Website - [Sreekar Venkata Nutulapati](https://sreekarnutulapati.vercel.app)
 - Frontend Mentor - [@sreekarnv](https://www.frontendmentor.io/profile/sreekarnv)
-
 
