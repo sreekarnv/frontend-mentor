@@ -10,4 +10,7 @@ export default defineConfig({
 		service: sharpImageService(),
 	},
 	base: '/frontend-mentor',
+	server: {
+		port: 3000,
+	},
 });
