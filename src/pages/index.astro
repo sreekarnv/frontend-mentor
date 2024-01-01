@@ -1,0 +1,33 @@
+---
+import HtmlLayout from "../components/html-layout.astro";
+
+const challenges = [
+	{
+		title: "QR Code Component",
+		description: "Create a QR Code component",
+		link: "/newbie/qr-code-component",
+	},
+	{
+		title: "Blog Preview Card",
+		description: "Create a blog preview card",
+		link: "/newbie/blog-preview-card",
+	},
+]
+---
+
+<HtmlLayout title="Home">
+	<main class="max-w-2xl mx-auto py-8 px-3" >
+		<h1 class="text-3xl font-bold text-center mb-10" >Challenges</h1>
+		<ul>
+			{challenges.map((challenge) => (
+				<li class="mb-6 py-3 px-4 rounded-xl bg-blue-50 flex items-center justify-between">
+					<div>
+						<h2 class="font-semibold">{challenge.title}</h2>
+						<p class="text-sm text-gray-800" >{challenge.description}</p>
+					</div>
+					<a href={challenge.link}>View</a>
+				</li>
+			))}
+		</ul>
+	</main>
+</HtmlLayout>

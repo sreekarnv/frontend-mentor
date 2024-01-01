@@ -1,0 +1,12 @@
+:root {
+	/* QR Code Component */
+	--qcc-grayish-blue: hsl(220, 15%, 55%);
+	--qcc-dark-blue: hsl(218, 44%, 22%);
+	--qcc-light-gray: hsl(212, 45%, 89%);
+	--qcc-font-family: 'Outfit', sans-serif;
+
+	/* Blog Preview Card */
+	--bpc-primary: hsl(47, 88%, 63%);
+	--bpc-secondary: hsl(0, 0%, 50%);
+	--bpc-font-family: 'Figtree', sans-serif;
+}

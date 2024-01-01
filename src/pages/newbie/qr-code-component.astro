@@ -1,0 +1,40 @@
+---
+import HtmlLayout from '../../components/html-layout.astro';
+import { ArrowLeft } from 'lucide-astro'
+import {Image} from "astro:assets"
+import qrImage from '../../assets/images/qr-code-component/image-qr-code.png'
+---
+
+<HtmlLayout title="QR Code Component">
+    <Fragment slot="head">        
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </Fragment>
+    <Fragment slot="header" >    
+        <a href="/" class="absolute p-3 shadow hover:shadow-lg focus-visible:shadow-lg rounded-full bg-white top-2 left-2">
+            <ArrowLeft />
+        </a>
+    </Fragment>
+    <div class="font-qcc-font-family bg-qcc-light-gray h-screen w-full flex items-center justify-center">
+        <div
+            class="bg-white flex flex-col items-center p-4 rounded-xl max-w-sm mx-auto gap-5 shadow-qcc-light-gray shadow-lg"
+        >
+            <Image
+                src={qrImage}
+                alt="QR"
+                class="aspect-square w-full h-full rounded-xl"
+            />
+            <h3 class="font-bold text-darkBlue text-3xl text-center">
+                Improve your front-end skills by building projects
+            </h3>
+            <p class="text-center text-grayishBlue pb-8">
+                Scan the QR code to visit Frontend Mentor and take your coding skills
+                to the next level
+            </p>
+        </div>
+    </div>
+</HtmlLayout>
