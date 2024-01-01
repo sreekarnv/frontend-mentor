@@ -1,4 +1,6 @@
 # Frontend Mentor Solutions
 
-1. [Blog Preview Card]()
-2. [QR Code Component]()
+## Newbie Level
+
+1. [Blog Preview Card](https://sreekarnv.github.io/frontend-mentor/newbie/blog-preview-card/)
+2. [QR Code Component](https://sreekarnv.github.io/frontend-mentor/newbie/qr-code-component/)
