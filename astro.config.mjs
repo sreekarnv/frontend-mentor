@@ -9,4 +9,5 @@ export default defineConfig({
 	image: {
 		service: sharpImageService(),
 	},
+	base: '/frontend-mentor',
 });
